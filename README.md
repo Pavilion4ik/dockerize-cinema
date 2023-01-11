@@ -14,11 +14,11 @@ cd dockerize-cinema
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-set DB_HOST=localhost
-set DB_NAME=dockercinema
-set DB_USER=dockercinema
-set DB_PASSWORD=dockercinema
-set SECRET_KEY=django-insecure-6vubhk2$++agnctay_4pxy_8cq)mosmn(*-#2b^v4cgsh-^!i3
+set DB_HOST=<your DB_HOST>
+set DB_NAME=<your DB_NAME>
+set DB_USER=<your DB_USER>
+set DB_PASSWORD=<your DB_PASSWORD>
+set SECRET_KEY=<your SECRET_KEY>
 python manage.py migrate
 python manage.py runserver
 ```
